@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/GraBit.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>GraBit Technologies</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/GraBit.png" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link button">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle menu -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img
+          src="assets/img/home-lines-bg.svg"
+          alt="image"
+          class="home__lines"
+        />
+
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__data">
+              <h1 class="home__title">
+                Create The <br />
+                Digital Reality <br />
+                You Want Here
+              </h1>
+
+              <p class="home__description">
+                Our commitment to quality, integrity, and customer satisfaction
+                is evident in every aspect of our operations.
+              </p>
+
+              <div class="home__buttons">
+                <a href="#services" class="button">Our Services</a>
+
+                <a href="#projects" class="button__link">
+                  <span>View Projects</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="home__info">
+              <div>
+                <h3 class="home__info-title">3+</h3>
+                <p class="home__info-description">
+                  Years of <br />
+                  Experience
+                </p>
+              </div>
+
+              <div>
+                <h3 class="home__info-title">10</h3>
+                <p class="home__info-description">
+                  Complete <br />
+                  Projects
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="home__images">
+            <img
+              src="assets/img/unsplash.jpg"
+              alt="image"
+              class="home__img-1"
+            />
+            <img
+              src="assets/img/development.png"
+              alt="image"
+              class="home__img-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <span class="section__subtitle">ABOUT US</span>
+            <h2 class="section__title">
+              We Provide The Best <br />
+              Services To Our Clients.
+            </h2>
+
+            <p class="about__description">
+              GraBit Technologies is a South Sudanese Software Development and
+              Graphics Design Company specializing in digital solutions and
+              branding services. The company provides a range of services.
+            </p>
+
+            <ul class="about__list grid">
+              <li class="about__list-item">
+                <i class="ri-checkbox-circle-line"></i>
+                <span>Professional IT Engineers</span>
+              </li>
+
+              <li class="about__list-item">
+                <i class="ri-checkbox-circle-line"></i>
+                <span>Guaranteed quality</span>
+              </li>
+
+              <li class="about__list-item">
+                <i class="ri-checkbox-circle-line"></i>
+                <span>Extensive experience</span>
+              </li>
+
+              <li class="about__list-item">
+                <i class="ri-checkbox-circle-line"></i>
+                <span>We output your vision</span>
+              </li>
+            </ul>
+
+            <a href="#projects" class="button">View Projects</a>
+          </div>
+
+          <div class="about__images">
+            <img src="assets/img/prog.jpg" alt="image" class="about__img-1" />
+            <img
+              src="assets/img/software.jpg"
+              alt="image"
+              class="about__img-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <div class="services__container container grid">
+          <div class="services__data">
+            <div>
+              <span class="section__subtitle">OUR SERVICES</span>
+              <h2 class="section__title">
+                Website <br />
+                Development
+              </h2>
+            </div>
+
+            <p class="services__description">
+              We specialize in creating high-quality, custom websites tailored
+              to meet the needs of businesses and individuals.
+            </p>
+
+            <a href="#contact" class="button">Contact Now</a>
+          </div>
+
+          <div class="services__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-pencil-ruler-2-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Graphics <br />
+                  Design
+                </h3>
+
+                <p>
+                  Offers creative and professional graphic design services to
+                  enhance your brand identity. We design logos, business cards,
+                  brochures, banners, social media graphics, and more. Our team
+                  focuses on visually appealing and impactful designs that
+                  effectively communicate your message and leave a lasting
+                  impression.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-bug-2-fill"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Application <br />
+                  Development
+                </h3>
+
+                <p>
+                  We create mobile and web applications tailored to your needs,
+                  whether for business operations, customer engagement, or
+                  e-commerce.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-code-box-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Software <br />
+                  Development
+                </h3>
+
+                <p>
+                  We build custom software solutions tailored to meet business
+                  needs and improve efficiency. We develop scalable, secure, and
+                  high-performance software for various industries, ensuring
+                  seamless functionality and user-friendly experiences. Our team
+                  leverages the latest technologies to deliver reliable and
+                  innovative solutions that drive business growth.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-layout-4-line"></i>
+                </div>
+
+                <h3 class="services__title">
+                  Branding & <br />
+                  Design
+                </h3>
+
+                <p>
+                  We help businesses establish a strong and memorable brand
+                  identity through professional branding and design services. We
+                  create unique logos, brand guidelines, marketing materials,
+                  and visual content that reflect your company’s values and
+                  vision. Our team ensures consistency across all platforms,
+                  from digital to print, helping you build a recognizable and
+                  impactful brand that stands out in the market.
+                </p>
+              </article>
+
+              <article class="services__card swiper-slide">
+                <div class="services__icon">
+                  <i class="ri-layout-4-fill"></i>
+                </div>
+
+                <h3 class="services__title">UI/UX Design<br /></h3>
+
+                <p>
+                  We specializes in creating intuitive and visually appealing
+                  user interfaces (UI) and seamless user experiences (UX) for
+                  websites and applications. Our design approach focuses on
+                  usability, functionality, and aesthetics to enhance user
+                  engagement and satisfaction. We craft responsive and
+                  interactive designs that ensure smooth navigation and an
+                  enjoyable digital experience.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Navigation buttons -->
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-line"></i>
+          </div>
+        </div>
+
+        <div class="services__shape"></div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <span class="section__subtitle">OUR PROJECTS</span>
+        <h2 class="section__title">
+          Completed <br />
+          Projects
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <img
+              src="assets/img/Premium.jpeg"
+              alt="image"
+              class="projects__img"
+            />
+
+            <div class="projects__data">
+              <span>Graphics Design</span>
+              <h2 class="projects__title">
+                Banner For Dream Makers Global Co.Ltd
+              </h2>
+              <span class="projects__date">August 24, 2024</span>
+
+              <p>
+                Specializing in logistics, transportation, and supply chain
+                management. They provide a range of services, including freight
+                forwarding, customs clearance, warehousing, and distribution.
+              </p>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/code.jpg" alt="image" class="projects__img" />
+
+            <div class="projects__data">
+              <span>E-commerce Website</span>
+              <h2 class="projects__title">E-commerce For GraBit</h2>
+              <span class="projects__date">june 15, 2024</span>
+
+              <p>
+                Specializing in e-commerce, we provide a platform for buying and
+                selling.
+              </p>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/software-developer (2).jpg"
+              alt="image"
+              class="projects__img"
+            />
+
+            <div class="projects__data">
+              <span>Designing Of Website</span>
+              <h2 class="projects__title">General Trading Company</h2>
+              <span class="projects__date">March 15, 2025</span>
+
+              <p>
+                Specializing in logistics, transportation, and supply chain
+                management.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <span class="section__subtitle">CONTACT US</span>
+          <h2 class="section__title">
+            We Code Your Ideas <br />
+            To Digital Reality
+          </h2>
+
+          <div class="contact__container grid">
+            <img
+              src="assets/img/Computer programmer.jpeg"
+              alt="image"
+              class="contact__img"
+            />
+
+            <div class="contact__data grid">
+              <div class="contact__card">
+                <div class="contact__icon">
+                  <i class="ri-map-pin-2-line"></i>
+                </div>
+
+                <h3 class="contact__title">We are here</h3>
+                <address class="contact__info">
+                  South Sudan - Juba <br />
+                  Jebel Suk
+                </address>
+              </div>
+
+              <div class="contact__card">
+                <div class="contact__icon">
+                  <i class="ri-phone-line"></i>
+                </div>
+
+                <h3 class="contact__title">Talk to us</h3>
+                <address class="contact__info">
+                  +211-980-295-779 <br />
+                  +211-929-775-013
+                </address>
+              </div>
+
+              <div class="contact__card">
+                <div class="contact__icon">
+                  <i class="ri-message-3-line"></i>
+                </div>
+
+                <h3 class="contact__title">Chat with us</h3>
+
+                <div class="contact__social">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+211980295779&text=Hello, more information!"
+                    target="_blank"
+                    class="contact__social-link"
+                  >
+                    <i class="ri-whatsapp-line"></i>
+                  </a>
+
+                  <a
+                    href="https://m.me/GraBit Technologies/"
+                    target="_blank"
+                    class="contact__social-link"
+                  >
+                    <i class="ri-messenger-line"></i>
+                  </a>
+
+                  <a
+                    href="https://t.me/GraBit_Technologies/"
+                    target="_blank"
+                    class="contact__social-link"
+                  >
+                    <i class="ri-telegram-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <i class="ri-edit-box-line"></i>
+            <span>Design With Us</span>
+          </a>
+
+          <p class="footer__description">
+            We design and secure <br />
+            your website.
+          </p>
+
+          <address class="footer__email">Email: info@grabittech.com</address>
+        </div>
+
+        <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#about" class="footer__link">About Us</a>
+              </li>
+
+              <li>
+                <a href="#services" class="footer__link">Services</a>
+              </li>
+
+              <li>
+                <a href="#projects" class="footer__link">Projects</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Information</h3>
+
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">
+                  South Sudan - Juba <br />
+                  Jebel Suk
+                </address>
+              </li>
+
+              <li>
+                <address class="footer__info">9AM - 5PM</address>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Social Media</h3>
+
+            <div class="footer__social">
+              <a
+                href="https://www.facebook.com/GraBit Technologies/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/grabit_technologies/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/GraBit1912/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-twitter-x-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy">
+        <p>&copy; 2025 GraBit Technologies. All Rights Reserved.</p>
+      </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
